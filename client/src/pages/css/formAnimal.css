@@ -1,0 +1,65 @@
+.formAnimal{
+    width: 100%;
+    height: auto;
+}
+
+.formAnimal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formAnimal-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+}
+
+.formAnimal-formulaire{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.file-dropzone {
+    padding: 2rem 5rem;
+    border: 2px dashed #ccc;
+    border-radius: 4rem;
+    text-align: center;
+    cursor: pointer;
+    margin: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.file-preview {
+    width: 50%;
+    height: 8rem;
+    border: 1px solid #ccc;
+}
+
+.formAnimal-input{
+    padding: 1rem 0rem;
+    border: none;
+    background-color: #f5f4f4;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 1.2rem;
+}
+
+.formAnimal-label{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formAnimal-btn{
+    margin-bottom: 2rem;
+    padding: 1rem 0rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #636161;
+    color: white;
+    cursor: pointer;
+}

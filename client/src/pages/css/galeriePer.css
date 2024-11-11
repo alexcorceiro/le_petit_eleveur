@@ -1,0 +1,161 @@
+.GaleriePer{
+    width: 100%;
+    height: auto;
+}
+
+.Galerie-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Galerie-header{
+    padding: 1rem 2rem;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Galerie-body{
+    padding: 0rem 6rem;
+    height: 68vh;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    
+}
+
+.Galerie-btn{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    font-size: medium;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Galerie-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Galerie-card-header {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.Galerie-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: whitesmoke;
+    padding: 0.2rem 0rem;
+    width: 100%;
+}
+
+.Galerie-card-body{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1rem;
+    
+}
+
+.Galerie-card-body-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.Galerie-card-body-item {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+}
+
+.Galerie-card-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Galarie-card-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Galerie-card-btn-edit{
+    border: none;
+    border-radius: 3rem;
+    padding: 0.5rem 2rem; 
+    display: flex;
+    align-items: center;
+    background-color: green;
+    color: white;
+    margin-top: 0.2rem;
+    cursor: pointer;
+}
+
+.Galerie-card-btn-edit:hover{
+    background-color: rgb(1, 165, 1);
+}
+
+.Galerie-card-btn-sup{
+    border: none;
+    border-radius: 3rem;
+    padding: 0.5rem 2rem; 
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+    margin-top: 0.2rem; 
+    cursor: pointer;
+}
+.Galerie-card-btn-sup:hover{
+    background-color: rgb(219, 2, 2);
+}
+
+
+.Galerie-space{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Galerie-space-seach{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: whitesmoke;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.Galerie-input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 12rem;
+}

@@ -1,0 +1,90 @@
+.table-stock {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+.table-stock-search {
+  background-color: whitesmoke;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.table-stock-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+}
+
+.table-stock-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  margin-left: 0.5rem;
+  transition: border-color 0.2s ease;
+}
+
+.table-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enables both vertical and horizontal scrolling */
+  white-space: nowrap; /* Keeps the table content in a single row for horizontal scrolling */
+}
+
+.table-wrapper::-webkit-scrollbar {
+  height: 8px; /* Horizontal scrollbar height */
+  width: 8px;  /* Vertical scrollbar width */
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.5rem;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #ddd; 
+}
+
+tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}

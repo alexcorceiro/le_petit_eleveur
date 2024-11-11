@@ -1,0 +1,44 @@
+.eventTop{
+    width: 80vw;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.eventTop-container{
+    padding: 0.2rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.eventTop-title{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.eventTop-item{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eventTop-text{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.eventTop-btn{
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-radius: 0.2rem;
+    border: 1px solid #7a7878;
+    font-size: 16PX;
+}

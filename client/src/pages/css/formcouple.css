@@ -1,0 +1,49 @@
+.formCouple{
+    width: 100%;
+    height: auto;
+}
+
+.formCouple-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.formCouple-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.formCouple-label{
+    width: 100%;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+.formCouple-btn{
+    padding: 1rem 5rem;
+    background-color: #3a3a3b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    font-size: medium;
+    margin-top: 2rem;
+}
+
+
+.formCouple-select{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    font-size: medium;
+    margin-top: 1rem;
+}

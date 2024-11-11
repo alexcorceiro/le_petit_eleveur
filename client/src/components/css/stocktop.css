@@ -1,0 +1,32 @@
+.stocktop{
+    width: 83vw;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.stocktop-container{
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.stocktop-title{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 0 1rem;
+}
+.stocktop-container-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+.stocktop-subtitle{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+
+}
